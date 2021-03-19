@@ -11,7 +11,7 @@ import javax.inject.Named;
  *
  * @author petr.adamek@embedit.cz
  */
-@Named("currencyConvertor")
+// @Named("currencyConvertor")
 public class CurrencyConvertorImpl implements CurrencyConvertor {
 
     private final ExchangeRateTable exchangeRateTable;

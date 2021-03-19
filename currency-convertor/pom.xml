@@ -49,7 +49,8 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <!--<mainClass>cz.muni.fi.pa165.MainXml</mainClass>-->
-                            <mainClass>cz.muni.fi.pa165.MainAnnotations</mainClass>
+                            <!--<mainClass>cz.muni.fi.pa165.MainAnnotations</mainClass>-->
+                            <mainClass>cz.muni.fi.pa165.MainJavaConfig</mainClass>
                             <classpathPrefix>dependency-jars/</classpathPrefix>
                         </manifest>
                     </archive>

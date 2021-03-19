@@ -4,7 +4,7 @@ import javax.inject.Named;
 import java.math.BigDecimal;
 import java.util.Currency;
 
-@Named("exchangeRateTable")
+// @Named("exchangeRateTable")
 public class ExchangeRateTableImpl implements ExchangeRateTable {
     @Override
     public BigDecimal getExchangeRate(Currency sourceCurrency, Currency targetCurrency) {
